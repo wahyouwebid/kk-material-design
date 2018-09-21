@@ -12,11 +12,6 @@
         android:title="Favorite" />
 
     <item
-        android:id="@+id/navigation_videos"
-        android:icon="@drawable/ic_live_tv_black_24dp"
-        android:title="Videos" />
-
-    <item
         android:id="@+id/navigation_article"
         android:icon="@drawable/ic_library_books_black_24dp"
         android:title="Article" />

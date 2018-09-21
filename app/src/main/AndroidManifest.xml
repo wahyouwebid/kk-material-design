@@ -42,7 +42,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".components.navigation.BasicBottombarActivity"
-            android:label="@string/title_activity_basic_bottombar"></activity>
+            android:label="@string/title_activity_basic_bottombar" />
+        <activity
+            android:name=".components.navigation.ShiftingBottombarActivity"
+            android:label="@string/title_activity_shifting_bottombar"></activity>
     </application>
 
 </manifest>

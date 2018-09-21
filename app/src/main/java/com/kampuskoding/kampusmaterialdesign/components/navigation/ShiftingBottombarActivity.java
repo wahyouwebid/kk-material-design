@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.kampuskoding.kampusmaterialdesign.R;
 
-public class BasicBottombarActivity extends AppCompatActivity {
+public class ShiftingBottombarActivity extends AppCompatActivity {
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -23,6 +23,9 @@ public class BasicBottombarActivity extends AppCompatActivity {
                 case R.id.navigation_favorite:
                     setTitle("Favorite");
                     return true;
+                case R.id.navigation_videos:
+                    setTitle("Videos");
+                    return true;
                 case R.id.navigation_article:
                     setTitle("Article");
                     return true;
@@ -34,9 +37,9 @@ public class BasicBottombarActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_basic_bottombar);
+        setContentView(R.layout.activity_shifting_bottombar);
 
-        setTitle("Basic Bottombar");
+        setTitle("Sihfting Bottombar");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

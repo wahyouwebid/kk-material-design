@@ -46,15 +46,6 @@
             android:text="Shifting Bottombar"
             android:background="@drawable/card_orange"/>
 
-        <Button
-            android:id="@+id/btn_profile_card"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:layout_marginTop="20dp"
-            android:text="profile card"
-            android:background="@drawable/card_purple"/>
-
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
