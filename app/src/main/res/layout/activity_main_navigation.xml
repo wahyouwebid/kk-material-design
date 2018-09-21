@@ -29,7 +29,7 @@
             android:text="Basic Drawer"
             android:background="@drawable/card_green"/>
         <Button
-            android:id="@+id/btn_simple_nav_bottombar"
+            android:id="@+id/btn_basic_nav_bottombar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/white"

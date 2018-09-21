@@ -17,6 +17,8 @@ public class MainNavigationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main_navigation);
 
         btnSimpleDrawer = findViewById(R.id.btn_nav_simple_drawer);
+        btnBasicDrawer = findViewById(R.id.btn_nav_basic_drawer);
+        btnBasicBottombar = findViewById(R.id.btn_basic_nav_bottombar);
 
         btnSimpleDrawer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,5 +27,22 @@ public class MainNavigationActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnBasicDrawer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainNavigationActivity.this, BasicNavigationDrawerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnBasicBottombar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainNavigationActivity.this, BasicBottombarActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

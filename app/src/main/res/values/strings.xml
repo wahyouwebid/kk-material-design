@@ -9,4 +9,8 @@
     <string name="component">Component</string>
     <string name="title_activity_simple_navigation_drawer">SimpleNavigationDrawerActivity</string>
     <string name="title_activity_basic_navigation_drawer">BasicNavigationDrawerActivity</string>
+    <string name="title_activity_basic_bottombar">BasicBottombarActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
