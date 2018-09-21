@@ -21,4 +21,4 @@ Add Fitures :
 - Shop 
 - Rent Car
 
-![gambar](https://res.cloudinary.com/kampuskoding/image/upload/v1537504218/screenshoot/Screenshot_20180921-112328.jpg) 
+![gambar](https://res.cloudinary.com/kampuskoding/image/upload/w_200/screenshoot/Screenshot_20180921-112328.jpg) 
